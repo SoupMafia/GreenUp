@@ -1,0 +1,109 @@
+/* Paleta de colores */
+:root {
+    --green-light: #B7E5B3; 
+    --green-medium: #7AC57B;
+    --green-dark: #337F37;
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4 {
+    color: var(--green-dark);  
+  }
+  
+  p {
+    color: var(--black);
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: var(--green-medium);
+    color: var(--white);
+    padding: 1em;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav li {
+    margin-left: 1em;
+  }
+  
+  header nav a {
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  /* Secciones */
+  /* Fondo verde oscuro en body */
+body {
+    background-color: var(--green-dark);
+  }
+  
+  /* Cuadros blancos alrededor de las secciones */
+  section {
+    background-color: var(--white);
+    padding: 1em;
+    border-radius: 25px;
+    margin-bottom: 1em;
+  }
+  section.instructions {
+    background-color: var(--green-light);
+  }
+  
+  section.herb-selection {
+    background-color: var(--white);
+  }
+  
+  section.watering-system {
+    background-color: var(--green-light);  
+  }
+  
+  section.gallery {
+    background-color: var(--white);
+  }
+  
+  /* Botones */
+  .cta-button {
+    background-color: var(--green-medium);
+    color: var(--white);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    text-decoration: none;
+  } 
+  
+  /* Imágenes */  
+ /* Estilos generales de imágenes */
+img {
+    max-width: 100%;
+    margin: 1em auto; 
+  }
+  
+  /* Imágenes de herb-selection centradas */
+  #herb-selection img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Pie de página */
+  footer {
+    background-color: var(--green-medium);
+    color: var(--white);
+    padding: 0.5em;
+    text-align: center; 
+  }
